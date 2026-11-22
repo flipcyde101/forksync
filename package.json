@@ -1,0 +1,25 @@
+{
+  "name": "forksync",
+  "version": "0.1.0",
+  "description": "Zero-dependency GitHub fork auditor, safe upstream sync runner, and merged local branch pruner.",
+  "type": "module",
+  "bin": {
+    "forksync": "./bin/forksync.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "license": "MIT"
+}
